@@ -10,6 +10,9 @@
 !/recovered_source/
 !/recovered_helper/
 !/ghidra_scripts/
+!/analysis/
+/analysis/*
+!/analysis/purchase_logic/
 !/native_recovered/
 /native_recovered/*
 !/native_recovered/*.json

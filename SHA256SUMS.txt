@@ -1,1 +1,2 @@
 ac228c0af21be3d8cd0ed6e3242f0e1257933d7622a85b32dc5bc816e030f2b8  source_recovery_bundle.zip
+a3e2ec7c4c7aba2428980b25014b6d47ef0c4771cddcde9582b91af142c58daa  purchase_logic_analysis.zip

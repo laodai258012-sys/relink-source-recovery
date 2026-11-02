@@ -1,0 +1,390 @@
+{
+  "method": "Static native-loader order; not a runtime trace",
+  "native_loader_rva": "0xb3790",
+  "action_count": 2281,
+  "effective_disabled_count": 142,
+  "ocr_count": 37,
+  "ocr_not_disabled": 31,
+  "color_count": 39,
+  "color_not_disabled": 39,
+  "block_definitions": [
+    {
+      "id": 7,
+      "mark": "时间校准",
+      "source_path": "$.actions[21]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "mark": "已抢达到限制OSD显示",
+      "source_path": "$.actions[15]",
+      "effective_disabled": false
+    },
+    {
+      "id": 17,
+      "mark": "OSD显示",
+      "source_path": "$.actions[14]",
+      "effective_disabled": false
+    },
+    {
+      "id": 16,
+      "mark": "sjb_check",
+      "source_path": "$.actions[13]",
+      "effective_disabled": false
+    },
+    {
+      "id": 15,
+      "mark": "命中检测 2",
+      "source_path": "$.actions[12]",
+      "effective_disabled": false
+    },
+    {
+      "id": 14,
+      "mark": "数值组判断 1",
+      "source_path": "$.actions[11]",
+      "effective_disabled": false
+    },
+    {
+      "id": 13,
+      "mark": "磨损度筛选",
+      "source_path": "$.actions[10]",
+      "effective_disabled": false
+    },
+    {
+      "id": 12,
+      "mark": "自动延迟",
+      "source_path": "$.actions[9]",
+      "effective_disabled": false
+    },
+    {
+      "id": 11,
+      "mark": "刷新计时",
+      "source_path": "$.actions[8]",
+      "effective_disabled": false
+    },
+    {
+      "id": 10,
+      "mark": "刷新-延迟补偿",
+      "source_path": "$.actions[7]",
+      "effective_disabled": false
+    },
+    {
+      "id": 9,
+      "mark": "收藏已满-检测",
+      "source_path": "$.actions[6]",
+      "effective_disabled": false
+    },
+    {
+      "id": 8,
+      "mark": null,
+      "source_path": "$.actions[5]",
+      "effective_disabled": false
+    },
+    {
+      "id": 6,
+      "mark": "价格检测-收藏",
+      "source_path": "$.actions[4]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "mark": "数值组",
+      "source_path": "$.actions[3]",
+      "effective_disabled": false
+    },
+    {
+      "id": 4,
+      "mark": "添加",
+      "source_path": "$.actions[2]",
+      "effective_disabled": false
+    },
+    {
+      "id": 3,
+      "mark": "价格检测-限制",
+      "source_path": "$.actions[1]",
+      "effective_disabled": false
+    }
+  ],
+  "block_calls": [
+    {
+      "id": 7,
+      "source_path": "$.actions[20]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[16].next[2].next[0].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 13,
+      "source_path": "$.actions[16].next[0].next2[20].next[46]",
+      "effective_disabled": false
+    },
+    {
+      "id": 17,
+      "source_path": "$.actions[16].next[0].next2[20].next[44]",
+      "effective_disabled": false
+    },
+    {
+      "id": 3,
+      "source_path": "$.actions[16].next[0].next2[20].next[43]",
+      "effective_disabled": false
+    },
+    {
+      "id": 6,
+      "source_path": "$.actions[16].next[0].next2[20].next[42]",
+      "effective_disabled": false
+    },
+    {
+      "id": 9,
+      "source_path": "$.actions[16].next[0].next2[20].next[40]",
+      "effective_disabled": false
+    },
+    {
+      "id": 13,
+      "source_path": "$.actions[16].next[0].next2[20].next[34]",
+      "effective_disabled": false
+    },
+    {
+      "id": 3,
+      "source_path": "$.actions[16].next[0].next2[20].next[33]",
+      "effective_disabled": false
+    },
+    {
+      "id": 6,
+      "source_path": "$.actions[16].next[0].next2[20].next[32]",
+      "effective_disabled": false
+    },
+    {
+      "id": 13,
+      "source_path": "$.actions[16].next[0].next2[20].next[26]",
+      "effective_disabled": false
+    },
+    {
+      "id": 9,
+      "source_path": "$.actions[16].next[0].next2[20].next[25]",
+      "effective_disabled": false
+    },
+    {
+      "id": 3,
+      "source_path": "$.actions[16].next[0].next2[20].next[24]",
+      "effective_disabled": false
+    },
+    {
+      "id": 6,
+      "source_path": "$.actions[16].next[0].next2[20].next[23]",
+      "effective_disabled": false
+    },
+    {
+      "id": 13,
+      "source_path": "$.actions[16].next[0].next2[20].next[17]",
+      "effective_disabled": false
+    },
+    {
+      "id": 9,
+      "source_path": "$.actions[16].next[0].next2[20].next[16]",
+      "effective_disabled": false
+    },
+    {
+      "id": 3,
+      "source_path": "$.actions[16].next[0].next2[20].next[15]",
+      "effective_disabled": false
+    },
+    {
+      "id": 6,
+      "source_path": "$.actions[16].next[0].next2[20].next[14]",
+      "effective_disabled": false
+    },
+    {
+      "id": 9,
+      "source_path": "$.actions[16].next[0].next2[20].next[11]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[16].next[0].next2[16].next[0].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 15,
+      "source_path": "$.actions[13].next[0].next2[2]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[9].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[3].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[12]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[10]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[8]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[6]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[4]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[1].next[0].next[2]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[31]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[29]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[27]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[25]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[23]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[21]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[19]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[17]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[15]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[13]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[11]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[9]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[7]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[5]",
+      "effective_disabled": false
+    },
+    {
+      "id": 5,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[3]",
+      "effective_disabled": false
+    },
+    {
+      "id": 18,
+      "source_path": "$.actions[12].next[0].next[1].next[0].next[0].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 8,
+      "source_path": "$.actions[8].next[5]",
+      "effective_disabled": false
+    },
+    {
+      "id": 4,
+      "source_path": "$.actions[4].next[0].next[0].next[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 17,
+      "source_path": "$.actions[2].next[2].next[1].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 16,
+      "source_path": "$.actions[0].next[3].next[1].next[1].next2[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 16,
+      "source_path": "$.actions[0].next[3].next[0].next[1].next2[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 16,
+      "source_path": "$.actions[0].next[0].next[3].next[33].next2[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 14,
+      "source_path": "$.actions[0].next[0].next[3].next[1].next[1]",
+      "effective_disabled": false
+    },
+    {
+      "id": 11,
+      "source_path": "$.actions[0].next[0].next[2].next[2].next[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 11,
+      "source_path": "$.actions[0].next[0].next[2].next[1].next[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 11,
+      "source_path": "$.actions[0].next[0].next[2].next[0].next[0]",
+      "effective_disabled": false
+    },
+    {
+      "id": 15,
+      "source_path": "$.actions[0].next[0].next[1].next[18].next[2]",
+      "effective_disabled": false
+    }
+  ]
+}

@@ -14,6 +14,16 @@
 - `RECOVERY_REPORT.md`：完整恢复包的说明，其中的目录路径以恢复包为准。
 - `upstream_provenance.md`：公开上游参考来源与适用范围。
 
+## 购买逻辑专题
+
+- [分析报告](analysis/purchase_logic/REPORT.md)：购买流程、延迟补偿、系统改时证据、OCR 区域和待验证问题。
+- [加载顺序动作树](analysis/purchase_logic/actions.execution_order.txt)：原生加载器会倒序还原每层动作数组；原始恢复文件保留的是存储顺序，不能直接当成执行顺序。
+- [OCR 区域清单](analysis/purchase_logic/ocr_regions.csv)：37 个节点及其禁用状态。
+- `analyze_purchase_logic.py`：只读取宏文件并生成静态分析，不执行宏、不修改系统时间。
+- `python -m unittest test_purchase_analysis -v`：验证倒序还原、原始数据保留及禁用状态继承；只需 Python 标准库和仓库内文件。
+
+专题完整附件 `purchase_logic_analysis.zip` 位于 Releases，包含报告、证据、脚本和上游语义对照资料。
+
 ## 全部恢复结果
 
 在本仓库的 [Releases](https://github.com/laodai258012-sys/relink-source-recovery/releases) 下载 `source_recovery_bundle.zip`。
