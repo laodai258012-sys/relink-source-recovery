@@ -1,0 +1,1 @@
+feedback_5=find(feedback,'被购买')

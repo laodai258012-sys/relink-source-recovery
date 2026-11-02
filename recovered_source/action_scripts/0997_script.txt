@@ -1,0 +1,4 @@
+#ntp_time_start=time_rms()
+ntp_time=time_ntp_ms()
+#ntp_time_end=time_rms()
+#ntp_time_difference=(ntp_time_end-ntp_time_start)/2

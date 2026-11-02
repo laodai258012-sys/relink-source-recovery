@@ -1,0 +1,42 @@
+{
+  "aliases": {
+    "2c73f7ff": "type",
+    "7049459c": "disabled",
+    "4e3698ae": "mark",
+    "aae3083b": "min",
+    "74a66447": "max",
+    "cdd0c122": "next",
+    "bb58b051": "next2",
+    "2e73f7ff": "script",
+    "2e73f7fe": "condition",
+    "8a22cc15": "key",
+    "1238cd81": "block",
+    "a70ba7d6": "key_state",
+    "fd1f0a60": "x",
+    "ba20d839": "y",
+    "8ae748e5": "text",
+    "cbffe59e": "time",
+    "5b33880e": "rgbe",
+    "69ca7cca": "rect",
+    "c5fc0bc0": "level",
+    "4d208281": "option",
+    "fe7f1ef2": "id",
+    "4578d94a": "sync",
+    "c3e16116": "variable",
+    "sp": "speed",
+    "5d258b03": "random_extent",
+    "620d9da4": "track",
+    "_aae3083b": "min_expression",
+    "_74a66447": "max_expression",
+    "0e82f4bb": "row",
+    "53853f41": "match",
+    "c7d298c2": "url"
+  },
+  "aes_keys": {
+    "2c73f7ff": "cf849460143f9176",
+    "4e3698ae": "a71ebf091617c23a",
+    "2e73f7ff": "8ac774fc1afe55bb",
+    "2e73f7fe": "78f281c0bdee68f5"
+  },
+  "notes": "Aliases are analysis labels based on native field access and the upstream Action schema; original keys remain in macro.full.json."
+}

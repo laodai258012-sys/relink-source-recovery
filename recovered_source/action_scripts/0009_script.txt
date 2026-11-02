@@ -1,0 +1,1 @@
+time_countdown='识别'

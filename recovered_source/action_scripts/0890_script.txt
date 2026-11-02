@@ -1,0 +1,1 @@
+level_check_=value('枪名_subx3')^'0'^value('枪名_subx1')

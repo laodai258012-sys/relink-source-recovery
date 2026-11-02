@@ -1,0 +1,1 @@
+feedback_6=find(feedback,'玩家过多')

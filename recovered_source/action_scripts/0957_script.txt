@@ -1,0 +1,1 @@
+旧梦=find(QRseries,'旧',0)

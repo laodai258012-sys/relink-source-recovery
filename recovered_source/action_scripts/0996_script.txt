@@ -1,0 +1,4 @@
+set_s=time_rms()
+time_set_ms(ntp_time+1)
+set_e=time_rms()
+set_o=set_e-set_s

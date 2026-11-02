@@ -1,0 +1,4 @@
+最低价格=value('最低价格设置栏_'^_index)
+最高价格=value('最高价格设置栏_'^_index)
+成色=value('成色设置栏_'^_index)
+磨损度=value('磨损度设置栏_'^_index)

@@ -1,0 +1,307 @@
+<qiml>
+	<group mar="5" text="购买延迟" tip="延迟参数并非越低越好！|过快导致购买随机池开启前点击;过慢会导致错过购买随机池。|受网络条件等设备环境影响，最适合的参数不同，需要自己调整。">
+		<row mar="1" hei="10">
+		<text text="购买延迟(ms)" wid="360"/>
+		<int_edit var="购买延迟" val="840" wid="312" hei="25" tip=""/>
+		<text/>
+		 </row>
+		<row mar="1" hei="10">
+			<text text="动态延迟" wid="360"/>
+			<check text="开启动态延迟调整（以下设置生效）" var="动态延迟" val="0" wid="312" hei="25" tip=""/>
+		<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="订单尚未开放购买" wid="360"/>
+			<text text="减少" wid="26"/>
+		<num_edit var="fd1" val="5" dec="1" wid="25" hei="25" tip="减少延迟"/>
+		<text text="毫秒购买延迟(ms)" wid="120"/>
+		<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="还在公示期（假购买）" wid="360"/>
+			<text text="增加" wid="26"/>
+		<num_edit var="fd2" val="1" dec="1" wid="25" hei="25" tip="增加延迟"/>
+		<text text="毫秒购买延迟(ms)" wid="120"/>
+		<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="抢购池子已满（未进池）" wid="360"/>
+			<text text="减少" wid="26"/>
+		<num_edit var="fd4" val="1" dec="1" wid="25" hei="25" tip="减少延迟"/>
+		<text text="毫秒购买延迟(ms)" wid="120"/>
+		<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="被购买或下架（蓝：未进池）" wid="360"/>
+			<text text="减少" wid="26"/>
+		<num_edit var="fd5" val="1" dec="1" wid="25" hei="25" tip="减少延迟"/>
+		<text text="毫秒购买延迟(ms)" wid="120"/>
+		<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="抢购玩家过多（服务器繁忙）" wid="360"/>
+			<text text="减少" wid="26"/>
+		<num_edit var="fd6" val="1" dec="1" wid="25" hei="25" tip="减少延迟"/>
+		<text text="毫秒购买延迟(ms)" wid="120"/>
+		<text/>
+		</row>
+	</group>
+	<group mar="5" text="连点击模式与间隔" tip="开启后连续点击购买按键,可自定义点击间隔。">
+		<row mar="1" hei="10">
+			<text text="开启连点模式" wid="360"/>
+			<check text="连续点击" var="连续点击" val="0" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+		<row mar="1" hei="10">
+			<text text="点击间隔" wid="360"/>
+			<int_edit var="点击间隔" val="30" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+	</group>
+	<group spc="5" lay="h" text="购买量限制" tip="任意一种品质达到数量即停止 默认0即无限制 |注意：橙色和蓝色计数需关闭跳过摇奖页面否则只计蓝色。">
+		<text text="[橙色-紫色-蓝色]" wid="208"/>
+		<int_edit var="橙色量" val="0" wid="150" hei="25" tip=""/>
+		<int_edit var="紫色量" val="0" wid="150" hei="25" tip=""/>
+		<int_edit var="蓝色量" val="0" wid="150" hei="25" tip=""/>
+		<text/>
+	</group>
+	<group mar="5" text="挂机设置" tip="持续运行：执行购买操作后脚本继续运行。|跳过假购买：触发假购买后，再次点击购买刷新跳过。|跳过成功页：购买成功后自动跳过提示界面。|无人挂机时建议全部勾选，且确保已筛选成色和价格范围！">
+		<row mar="1">
+			<text text="刷新界面" wid="363"/>
+			<check text="刷新界面" var="刷新界面" val="0" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+		<row mar="1">
+			<text text="跳过成功页" wid="363"/>
+			<check text="跳过成功页" var="跳过成功页" val="0" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+	</group>
+	<group mar="5" text="自动收藏模式" tip="开启自动收藏模式：让脚本进行收藏操作">
+		<row mar="1">
+			<text text="开启自动收藏模式" wid="363"/>
+			<check text="开启自动收藏模式" var="开启自动收藏模式" val="0" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+		<row mar="1">
+			<text text="开启收藏状态OSD" wid="363"/>
+			<check text="开启收藏状态OSD" var="开启收藏状态OSD" val="0" wid="310" hei="25" tip=""/>
+			<text/>
+		</row>
+	</group>
+	<group mar="5" text="自动收藏-任务配置">
+          <text text="[任务栏]   [启用开关]   [皮肤选择栏 (Season|枪名与系列)] [成色选择栏] [最大磨损度]   [最低价格]   [最高价格]  [限制量]"/>
+		<copy var="设置栏数量" val="50">
+			<row spc="5" mar="1">
+				<text text="任务栏%i%" wid="55"/>
+				<check var="启用" text="启用%i%" val="0" wid="65" hei="25" tip=""/>
+				<tree_combo var="枪名设置栏" var_item="选项枪名" wid="200">
+					<combo_group text="S1: 棱镜攻势">
+						<combo_item val="10100" text="S1|M4A1 突击步枪 - 极品" color="#FF4040"/>
+						<combo_item val="10101" text="S1|M4A1 突击步枪 - 优品" color="#DF8000"/>
+						<combo_item val="10120" text="S1|赛季1 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10102" text="S1|Ash-12 战斗步枪 - 飓风行动" color="#DF40FF"/>
+						<combo_item val="10103" text="S1|SMG-45 冲锋枪 - 飓风行动" color="#DF40FF"/>
+						<combo_item val="10104" text="S1|M870 霰弹枪 - 飓风行动" color="#DF40FF"/>
+						<combo_item val="10130" text="S1|赛季1 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10105" text="S1|M4A1 突击步枪 - 银灰金属" color="#4060FF"/>
+						<combo_item val="10106" text="S1|AK-12 突击步枪 - 阿萨拉卫队" color="#4060FF"/>
+						<combo_item val="10107" text="S1|AKM 突击步枪 - 阿萨拉卫队" color="#4060FF"/>
+						<combo_item val="10108" text="S1|Vector 冲锋枪 - 银灰金属" color="#4060FF"/>
+						<combo_item val="10109" text="S1|M870 霰弹枪 - 阿萨拉卫队" color="#4060FF"/>
+						<combo_item val="10110" text="S1|M1014 霰弹枪 - 银灰金属" color="#4060FF"/>
+						<combo_item val="10111" text="S1|M700 狙击步枪 - 阿萨拉卫队" color="#4060FF"/>
+						<combo_item val="10112" text="S1|G18 - 银灰金属" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S2: 美杜莎">
+						<combo_item val="10200" text="S2|Vector 冲锋枪 - 美杜莎 - 极品" color="#FF4040"/>
+						<combo_item val="10201" text="S2|Vector 冲锋枪 - 美杜莎 - 优品" color="#DF8000"/>
+						<combo_item val="10220" text="S2|赛季2 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10202" text="S2|K416 突击步枪 - 暗鸦" color="#DF40FF"/>
+						<combo_item val="10203" text="S2|P90 冲锋枪 - 暗鸦" color="#DF40FF"/>
+						<combo_item val="10204" text="S2|M1014 霰弹枪 - 暗鸦" color="#DF40FF"/>
+						<combo_item val="10230" text="S2|赛季2 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10205" text="S2|AK-12 突击步枪 - 青纹" color="#4060FF"/>
+						<combo_item val="10206" text="S2|AKM 突击步枪 - 青纹" color="#4060FF"/>
+						<combo_item val="10207" text="S2|AUG 突击步枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10208" text="S2|QBZ95-1 突击步枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10209" text="S2|Vector 冲锋枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10210" text="S2|M1014 霰弹枪 - 青纹" color="#4060FF"/>
+						<combo_item val="10211" text="S2|M249 轻机枪 - 青纹" color="#4060FF"/>
+						<combo_item val="10212" text="S2|M14 射手步枪 - 花岗岩" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S3: 电玩高手">
+						<combo_item val="10300" text="S3|SCAR-H 战斗步枪 - 电玩高手 - 极品" color="#FF4040"/>
+						<combo_item val="10301" text="S3|SCAR-H 战斗步枪 - 电玩高手 - 优品" color="#DF8000"/>
+						<combo_item val="10320" text="S3|赛季3 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10302" text="S3|K416 突击步枪 - 潜袭者" color="#DF40FF"/>
+						<combo_item val="10303" text="S3|Vector 冲锋枪 - 潜袭者" color="#DF40FF"/>
+						<combo_item val="10304" text="S3|M1014 霰弹枪 - 潜袭者" color="#DF40FF"/>
+						<combo_item val="10330" text="S3|赛季3 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10305" text="S3|AS Val 突击步枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10306" text="S3|PTR-32 突击步枪 - 黑潮" color="#4060FF"/>
+						<combo_item val="10307" text="S3|K416 突击步枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10308" text="S3|MP5 冲锋枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10309" text="S3|P90 冲锋枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10310" text="S3 | 野牛冲锋枪 - 黑潮" color="#4060FF"/>
+						<combo_item val="10311" text="S3|MP7 冲锋枪 - 黑潮" color="#4060FF"/>
+						<combo_item val="10312" text="S3|PKM 通用机枪 - 黑潮" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S4: 命运王牌">
+						<combo_item val="10400" text="S4|QBZ95-1 突击步枪 - 王牌之剑 - 极品" color="#FF4040"/>
+						<combo_item val="10401" text="S4|QBZ95-1 突击步枪 - 王牌之剑 - 优品" color="#DF8000"/>
+						<combo_item val="10402" text="S4|K416 突击步枪 - 命运 - 极品" color="#FF4040"/>
+						<combo_item val="10403" text="S4|K416 突击步枪 - 命运 - 优品" color="#DF8000"/>
+						<combo_item val="10420" text="S4|赛季4 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10404" text="S4|AK-12 突击步枪 - 原型机" color="#DF40FF"/>
+						<combo_item val="10405" text="S4|MP7 冲锋枪 - 原型机" color="#DF40FF"/>
+						<combo_item val="10406" text="S4|PSG-1 射手步枪 - 原型机" color="#DF40FF"/>
+						<combo_item val="10430" text="S4|赛季4 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10407" text="S4|M7 战斗步枪 - 天际线" color="#4060FF"/>
+						<combo_item val="10408" text="S4|SG552 突击步枪 - 天际线" color="#4060FF"/>
+						<combo_item val="10409" text="S4|AK-12 突击步枪 - 极地勘察队" color="#4060FF"/>
+						<combo_item val="10410" text="S4|PKM 通用机枪 - 极地勘察队" color="#4060FF"/>
+						<combo_item val="10411" text="S4|M14 射手步枪 - 天际线" color="#4060FF"/>
+						<combo_item val="10412" text="S4|PSG-1 射手步枪 - 极地勘察队" color="#4060FF"/>
+						<combo_item val="10413" text="S4|M700 狙击步枪 - 极地勘察队" color="#4060FF"/>
+						<combo_item val="10414" text="S4 | 沙漠之鹰 - 天际线" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S5: 气象感应">
+						<combo_item val="10500" text="S5|AUG 突击步枪 - 气象感应 - 极品" color="#FF4040"/>
+						<combo_item val="10501" text="S5|AUG 突击步枪 - 气象感应 - 优品" color="#DF8000"/>
+						<combo_item val="10502" text="S5 | 腾龙突击步枪 - 气象感应 - 极品" color="#FF4040"/>
+						<combo_item val="10503" text="S5 | 腾龙突击步枪 - 气象感应 - 优品" color="#DF8000"/>
+						<combo_item val="10520" text="S5|赛季5 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10504" text="S5|K437 突击步枪 - 私人定制" color="#DF40FF"/>
+						<combo_item val="10505" text="S5 | 勇士冲锋枪 - 私人定制" color="#DF40FF"/>
+						<combo_item val="10506" text="S5|AWM 狙击步枪 - 私人定制" color="#DF40FF"/>
+						<combo_item val="10530" text="S5|赛季5 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10507" text="S5|QBZ95-1 突击步枪 - 海岸线" color="#4060FF"/>
+						<combo_item val="10508" text="S5|QBZ95-1 突击步枪 - 精湛工艺" color="#4060FF"/>
+						<combo_item val="10509" text="S5|S12K 霰弹枪 - 海岸线" color="#4060FF"/>
+						<combo_item val="10510" text="S5|PKM 通用机枪 - 精湛工艺" color="#4060FF"/>
+						<combo_item val="10511" text="S5|Mini-14 射手步枪 - 精湛工艺" color="#4060FF"/>
+						<combo_item val="10512" text="S5|SKS 射手步枪 - 精湛工艺" color="#4060FF"/>
+						<combo_item val="10513" text="S5|SV-98 狙击步枪 - 海岸线" color="#4060FF"/>
+						<combo_item val="10514" text="S5|R93 狙击步枪 - 精湛工艺" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S6: 棱镜攻势 S2">
+						<combo_item val="10600" text="S6|M7 战斗步枪 - 棱镜攻势 S2 - 极品" color="#FF4040"/>
+						<combo_item val="10601" text="S6|M7 战斗步枪 - 棱镜攻势 S2 - 优品" color="#DF8000"/>
+						<combo_item val="10620" text="S6|赛季6 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10602" text="S6|AUG 突击步枪 - 天命" color="#DF40FF"/>
+						<combo_item val="10603" text="S6|P90 冲锋枪 - 天命" color="#DF40FF"/>
+						<combo_item val="10604" text="S6|SR-25 射手步枪 - 天命" color="#DF40FF"/>
+						<combo_item val="10630" text="S6|赛季6 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10605" text="S6|PTR-32 突击步枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10606" text="S6|AS Val 突击步枪 - 地平线" color="#4060FF"/>
+						<combo_item val="10607" text="S6|QCQ171 冲锋枪 - 地平线" color="#4060FF"/>
+						<combo_item val="10608" text="S6|SR-3M 紧凑突击步枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10609" text="S6|M870 霰弹枪 - 地平线" color="#4060FF"/>
+						<combo_item val="10610" text="S6|M1014 霰弹枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10611" text="S6|SV-98 狙击步枪 - 花岗岩" color="#4060FF"/>
+						<combo_item val="10612" text="S6|R93 狙击步枪 - 地平线" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S7: 悬赏令">
+						<combo_item val="10700" text="S7|AS Val 突击步枪 - 悬赏令 - 极品" color="#FF4040"/>
+						<combo_item val="10701" text="S7|AS Val 突击步枪 - 悬赏令 - 优品" color="#DF8000"/>
+						<combo_item val="10720" text="S7|赛季7 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10702" text="S7|KC17 突击步枪 - 碎冰行动" color="#DF40FF"/>
+						<combo_item val="10703" text="S7|Ash-12 战斗步枪 - 碎冰行动" color="#DF40FF"/>
+						<combo_item val="10704" text="S7|PTR-32 突击步枪 - 碎冰行动" color="#DF40FF"/>
+						<combo_item val="10730" text="S7|赛季7 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10705" text="S7|AUG 突击步枪 - 旧梦" color="#4060FF"/>
+						<combo_item val="10706" text="S7|K437 突击步枪 - 巨兽" color="#4060FF"/>
+						<combo_item val="10707" text="S7|SG552 突击步枪 - 巨兽" color="#4060FF"/>
+						<combo_item val="10708" text="S7|SCAR-H 战斗步枪 - 旧梦" color="#4060FF"/>
+						<combo_item val="10709" text="S7|SR-3M 紧凑突击步枪 - 巨兽" color="#4060FF"/>
+						<combo_item val="10710" text="S7|UZI 冲锋枪 - 旧梦" color="#4060FF"/>
+						<combo_item val="10711" text="S7|M14 射手步枪 - 巨兽" color="#4060FF"/>
+						<combo_item val="10712" text="S7|M700 狙击步枪 - 旧梦" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S8: 电玩高手 S2">
+						<combo_item val="10800" text="S8|MP7 冲锋枪 - 电玩高手 S2 - 极品" color="#FF4040"/>
+						<combo_item val="10801" text="S8|MP7 冲锋枪 - 电玩高手 S2 - 优品" color="#DF8000"/>
+						<combo_item val="10802" text="S8|M250 通用机枪 - 电玩高手 S2 - 极品" color="#FF4040"/>
+						<combo_item val="10803" text="S8|M250 通用机枪 - 电玩高手 S2 - 优品" color="#DF8000"/>
+						<combo_item val="10820" text="S8|赛季8 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10804" text="S8 | 腾龙突击步枪 - 檀劫铳影" color="#DF40FF"/>
+						<combo_item val="10805" text="S8 | 勇士冲锋枪 - 檀劫铳影" color="#DF40FF"/>
+						<combo_item val="10806" text="S8|SVD 狙击步枪 - 檀劫铳影" color="#DF40FF"/>
+						<combo_item val="10830" text="S8|赛季8 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10807" text="S8|AS Val 突击步枪 - 休闲时光" color="#4060FF"/>
+						<combo_item val="10808" text="S8|SCAR-H 战斗步枪 - 休闲时光" color="#4060FF"/>
+						<combo_item val="10809" text="S8|AUG 突击步枪 - 千里骏骨" color="#4060FF"/>
+						<combo_item val="10810" text="S8|M4A1 突击步枪 - 千里骏骨" color="#4060FF"/>
+						<combo_item val="10811" text="S8|AKS-74U 突击步枪 - 休闲时光" color="#4060FF"/>
+						<combo_item val="10812" text="S8 | 野牛冲锋枪 - 千里骏骨" color="#4060FF"/>
+						<combo_item val="10813" text="S8|QJB201 轻机枪 - 千里骏骨" color="#4060FF"/>
+						<combo_item val="10814" text="S8|PSG-1 射手步枪 - 休闲时光" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S9: 造物纪元">
+						<combo_item val="10900" text="S9|KC17 突击步枪 - 造物纪元 - 极品" color="#FF4040"/>
+						<combo_item val="10901" text="S9|KC17 突击步枪 - 造物纪元 - 优品" color="#DF8000"/>
+						<combo_item val="10920" text="S9|赛季9 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="10902" text="S9|KC17 突击步枪 - 益趣游戏" color="#DF40FF"/>
+						<combo_item val="10903" text="S9|G3 战斗步枪 - 益趣游戏" color="#DF40FF"/>
+						<combo_item val="10904" text="S9|725 双管霰弹枪 - 益趣游戏" color="#DF40FF"/>
+						<combo_item val="10930" text="S9|赛季9 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="10905" text="S9|G3 战斗步枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10906" text="S9|K437 突击步枪 - 酸蚀" color="#4060FF"/>
+						<combo_item val="10907" text="S9|AUG 突击步枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10908" text="S9|SR-3M 紧凑突击步枪 - 星之彩" color="#4060FF"/>
+						<combo_item val="10909" text="S9|P90 冲锋枪 - 酸蚀" color="#4060FF"/>
+						<combo_item val="10910" text="S9|M870 霰弹枪 - 酸蚀" color="#4060FF"/>
+						<combo_item val="10911" text="S9|SVD 狙击步枪 - 酸蚀" color="#4060FF"/>
+						<combo_item val="10912" text="S9|R93 狙击步枪 - 星之彩" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S10: 群星">
+						<combo_item val="11000" text="S10|AKM 突击步枪 - 群星 - 极品" color="#FF4040"/>
+						<combo_item val="11001" text="S10|AKM 突击步枪 - 群星 - 优品" color="#DF8000"/>
+						<combo_item val="11020" text="S10|赛季10 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="11002" text="S10|QCQ171 冲锋枪 - 海韵之星" color="#DF40FF"/>
+						<combo_item val="11003" text="S10|QJB201 轻机枪 - 海韵之星" color="#DF40FF"/>
+						<combo_item val="11004" text="S10|PSG-1 射手步枪 - 海韵之星" color="#DF40FF"/>
+						<combo_item val="11030" text="S10|赛季10 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="11005" text="S10|M16A4 突击步枪 - 磁暴脉冲" color="#4060FF"/>
+						<combo_item val="11006" text="S10|AUG 突击步枪 - 磁暴脉冲" color="#4060FF"/>
+						<combo_item val="11007" text="S10|KC17 突击步枪 - 剑兰" color="#4060FF"/>
+						<combo_item val="11008" text="S10|CAR-15 突击步枪 - 剑兰" color="#4060FF"/>
+						<combo_item val="11009" text="S10|QCQ171 冲锋枪 - 磁暴脉冲" color="#4060FF"/>
+						<combo_item val="11010" text="S10|SR-3M 紧凑突击步枪 - 磁暴脉冲" color="#4060FF"/>
+						<combo_item val="11011" text="S10|SV-98 狙击步枪 - 剑兰" color="#4060FF"/>
+						<combo_item val="11012" text="S10 | 沙漠之鹰 - 剑兰" color="#4060FF"/>
+					</combo_group>
+					<combo_group text="S11: 疾风魅影">
+						<combo_item val="11100" text="S11|MK4冲锋枪 - 疾风魅影 - 极品" color="#FF4040"/>
+						<combo_item val="11101" text="S11|MK4冲锋枪 - 疾风魅影 - 优品" color="#DF8000"/>
+						<combo_item val="11120" text="S11|赛季11 紫色材料 - 三种" color="#DF40FF"/>
+						<combo_item val="11102" text="S11|AUG突击步枪 - 黑银先锋" color="#DF40FF"/>
+						<combo_item val="11103" text="S11|AS Val突击步枪 - 黑银先锋" color="#DF40FF"/>
+						<combo_item val="11104" text="S11|P90冲锋枪 - 黑银先锋" color="#DF40FF"/>
+						<combo_item val="11130" text="S11|赛季11 蓝色材料 - 八种" color="#4060FF"/>
+						<combo_item val="11105" text="S11|AS Val突击步枪 - 管弦乐队" color="#4060FF"/>
+						<combo_item val="11106" text="S11|M7战斗步枪 - 征服者" color="#4060FF"/>
+						<combo_item val="11107" text="S11|M16A4突击步枪 - 征服者" color="#4060FF"/>
+						<combo_item val="11108" text="S11|CAR-15突击步枪 - 管弦乐队" color="#4060FF"/>
+						<combo_item val="11109" text="S11|UZI冲锋枪 - 管弦乐队" color="#4060FF"/>
+						<combo_item val="11110" text="S11|S12K霰弹枪 - 征服者" color="#4060FF"/>
+						<combo_item val="11111" text="S11|R93狙击步枪 - 管弦乐队" color="#4060FF"/>
+						<combo_item val="11112" text="S11 |G18 - 征服者" color="#4060FF"/>
+					</combo_group>
+				</tree_combo>
+				<combo var="成色设置栏" wid="70">
+					<combo_item text="成色S"/>
+					<combo_item text="成色A"/>
+					<combo_item text="成色B"/>
+					<combo_item text="成色C"/>
+					<combo_item text="仅磨损"/>
+				</combo>
+				<num_edit var="磨损度设置栏" val="5" dec="6" wid="80" hei="25" tip="磨损度限制"/>
+				<int_edit var="最低价格设置栏" val="230" wid="68" hei="25" tip="最低收藏价格限制"/>
+				<int_edit var="最高价格设置栏" val="800" wid="68" hei="25" tip="最高收藏价格设置"/>
+				<int_edit var="限量设置栏" val="0" wid="42" hei="25" tip="默认0不限制数量(抢购数量限制 达量后不再收藏)"/>
+				<text/>
+			</row>
+		</copy>
+	</qiml>

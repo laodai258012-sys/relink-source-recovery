@@ -1,0 +1,11 @@
+test_every_decoded_field_roundtrips (test_recovery.RecoveryChecks.test_every_decoded_field_roundtrips) ... ok
+test_known_inner_plaintexts (test_recovery.RecoveryChecks.test_known_inner_plaintexts) ... ok
+test_outer_exact_hash_and_size (test_recovery.RecoveryChecks.test_outer_exact_hash_and_size) ... ok
+test_typepack_rejects_bad_inputs (test_recovery.RecoveryChecks.test_typepack_rejects_bad_inputs) ... ok
+test_typepack_scalars (test_recovery.RecoveryChecks.test_typepack_scalars) ... ok
+test_xor_matches_native_loop (test_recovery.RecoveryChecks.test_xor_matches_native_loop) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.200s
+
+OK

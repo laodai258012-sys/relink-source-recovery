@@ -1,0 +1,60 @@
+{
+  "original_sha256": "15405f1cd736f38ee315469e0b3eeddb87fd179103dc642acadd9440ccc6e696",
+  "date": "2026-11-02",
+  "macro": {
+    "actions": 2281,
+    "types": {
+      "varOperator": 808,
+      "keyBlock": 17,
+      "loop": 28,
+      "timer": 8,
+      "delay": 242,
+      "varCondition": 585,
+      "key": 159,
+      "mouse": 103,
+      "end": 4,
+      "popText": 45,
+      "color": 39,
+      "msgView": 45,
+      "blockExec": 56,
+      "jump": 36,
+      "ocr": 37,
+      "loopEnd": 37,
+      "jumpPoint": 14,
+      "block": 16,
+      "copyText": 1,
+      "open": 1
+    },
+    "decrypted_fields": 4106,
+    "script_occurrences": 1393,
+    "unique_script_or_condition_files": 1012,
+    "unknown_action_keys": [],
+    "all_inner_roundtrips_equal": true,
+    "prefix_removal": "Only action type has an eight-character random prefix; other text is unchanged."
+  },
+  "native_functions_attempted": 105280,
+  "native_pseudocode_success": 105234,
+  "native_pseudocode_failed": 46,
+  "native_assembly_functions": 105280,
+  "resource_editor_functions": 430,
+  "additional_leaf_candidates": 13615,
+  "additional_leaf_success": 13611,
+  "additional_leaf_failed": 4,
+  "text_range_coverage": {
+    "text_bytes": 32217645,
+    "exception_range_bytes": 30709006,
+    "candidate_range_bytes": 596490,
+    "other_range_bytes": 912149,
+    "other_range_count": 56651,
+    "note": "Other ranges may contain alignment padding, tables, prologues or unidentified code; no complete original source claim is made."
+  },
+  "resource_editor_success": 430,
+  "original_cpp_project_recovered": false,
+  "native_sample_executed": false,
+  "sample_server_contacted": false,
+  "limitations": [
+    "C pseudocode is not original C++ and is not guaranteed compilable.",
+    "Exception table ranges may be fragments rather than whole source functions; leaf functions without unwind records can exist outside this list.",
+    "No PDB, original variable names, original comments, build project, or server source is recovered."
+  ]
+}

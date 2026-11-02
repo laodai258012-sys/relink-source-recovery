@@ -1,0 +1,2 @@
+QRseries=sub(确认枪名检测,QRfind+1,2)
+#QRprename=sub(确认枪名检测,0,2)

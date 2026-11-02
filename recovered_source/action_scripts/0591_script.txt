@@ -1,0 +1,2 @@
+自延迟累计=自延迟累计+ntp_time_difference
+自延迟=(自延迟累计*3)/difference

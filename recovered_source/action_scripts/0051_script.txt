@@ -1,0 +1,2 @@
+Qseries=sub(Qname,Qfind+1,2)
+Qprename=sub(Qname,0,2)

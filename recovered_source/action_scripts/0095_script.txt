@@ -1,0 +1,3 @@
+time_set_ms(time_second+3000)
+#time_setmsa=time_rms()
+#time_setmsa_o=购买延迟+500-(time_setmsa-time_starto)

@@ -1,0 +1,2 @@
+time_t2=time_endo-time_starto
+sleep(购买延迟+500-time_t2)

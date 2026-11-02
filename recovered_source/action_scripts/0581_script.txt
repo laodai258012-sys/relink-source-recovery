@@ -1,0 +1,2 @@
+timeyc=time_ms()
+timeyc3=subx(刷新时间,0,3)

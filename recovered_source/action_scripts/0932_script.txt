@@ -1,0 +1,1 @@
+枪名=value('枪名设置栏_'^copy_first)

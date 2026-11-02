@@ -1,0 +1,3 @@
+time_countdowns=rms(time_countdown,'后解锁购买')
+
+pop('购买：橙色{橙色}/{橙示} 紫皮{紫色}/{紫示} 蓝皮{蓝色}/{蓝示} 购买延迟：{购买延迟}  倒计时监控：{time_countdowns}',5000)

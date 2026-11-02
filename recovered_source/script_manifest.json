@@ -1,0 +1,12 @@
+[
+  {
+    "path": "$.qiml",
+    "file": "scripts/0000.qiml",
+    "bytes": 21333
+  },
+  {
+    "path": "$.script",
+    "file": "scripts/0001.txt",
+    "bytes": 18134
+  }
+]

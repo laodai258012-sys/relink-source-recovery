@@ -1,0 +1,1 @@
+QCSZ<=value('磨损度设置栏_'^_index)

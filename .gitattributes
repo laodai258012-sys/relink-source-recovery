@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.java text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+*.qim binary
+recovered_source/** -text
+native_recovered/** -text

@@ -1,0 +1,2 @@
+sjb=rmc(sjb)
+my=sjb/60

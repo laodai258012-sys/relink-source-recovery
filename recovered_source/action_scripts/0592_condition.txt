@@ -1,0 +1,1 @@
+判断值-20<ntp_time_difference<判断值+20

@@ -1,0 +1,1 @@
+value('最低价格设置栏_'^_index)<=Qprice

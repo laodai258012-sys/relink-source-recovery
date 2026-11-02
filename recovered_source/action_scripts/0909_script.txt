@@ -1,0 +1,1 @@
+conunter显示='收藏栏_'^copy1^'   '^确认枪名^'   '^确认成色^'['^value('磨损度设置栏_'^copy_first)^']'^'   '^value('设置栏收藏量_'^copy_first)^'/'^value('设置栏总收藏量_'^copy_first)^'   '^value('设置栏已抢量_'^copy_first)^'/'^'不限制'

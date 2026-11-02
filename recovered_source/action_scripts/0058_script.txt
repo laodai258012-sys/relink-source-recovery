@@ -1,0 +1,2 @@
+time_check_t1=1500-time_t1
+time_check_t2=购买延迟-time_check_tip

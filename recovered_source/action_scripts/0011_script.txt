@@ -1,0 +1,5 @@
+fm=replace(datetime(),':','-')
+fm=fm^'.png'
+
+dir_create('购买截图')
+capture_screen(fm,'购买截图')

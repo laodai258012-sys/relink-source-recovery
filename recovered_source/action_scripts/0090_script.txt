@@ -1,0 +1,2 @@
+time_check=time_rms()
+time_check_tip=time_check-time_starto-500

@@ -1,0 +1,1 @@
+conunter显示='收藏栏_'^index1^'   '^确认枪名^'   '^'成色'^QOO^'['^value('磨损度设置栏_'^_index)^']'^'   '^value('设置栏收藏量_'^_index)^'/'^value('设置栏总收藏量_'^_index)^'   '^value('设置栏已抢量_'^_index)^'/'^'不限制'

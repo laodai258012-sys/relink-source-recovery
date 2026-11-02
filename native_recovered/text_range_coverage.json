@@ -1,0 +1,8 @@
+{
+  "text_bytes": 32217645,
+  "exception_range_bytes": 30709006,
+  "candidate_range_bytes": 596490,
+  "other_range_bytes": 912149,
+  "other_range_count": 56651,
+  "note": "Other ranges may contain alignment padding, tables, prologues or unidentified code; no complete original source claim is made."
+}

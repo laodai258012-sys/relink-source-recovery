@@ -1,0 +1,63 @@
+{
+  "analysis_only": true,
+  "entry_point": 0,
+  "note": "Not a runnable unpacked application. TLS/protector entry not executed. Import names resolved from modeled export metadata; aliases may differ from original.",
+  "functions": 105280,
+  "recovered_import_slots": 514,
+  "import_groups": 121,
+  "pe_sha256": "67f1315207392c7d2fac4f61772f79f869c52a27da1f96f881576799e76f8f55",
+  "original_sha256": "15405f1cd736f38ee315469e0b3eeddb87fd179103dc642acadd9440ccc6e696",
+  "last_stop": {
+    "type": "candidate_original_code_entry",
+    "address": "0x1411ec5a0",
+    "rva": "0x11ec5a0",
+    "note": "Stopped before interpreting this instruction"
+  },
+  "sections": [
+    {
+      "name": ".text",
+      "rva": "0x1000",
+      "size": 32217645
+    },
+    {
+      "name": ".rdata",
+      "rva": "0x1ebb000",
+      "size": 14490710
+    },
+    {
+      "name": ".data",
+      "rva": "0x2c8d000",
+      "size": 1056704
+    },
+    {
+      "name": ".pdata",
+      "rva": "0x2d8f000",
+      "size": 1263360
+    },
+    {
+      "name": ".mime",
+      "rva": "0x2ec4000",
+      "size": 46145
+    },
+    {
+      "name": ".tlsdata",
+      "rva": "0x2ed0000",
+      "size": 3840
+    },
+    {
+      "name": ".rsrc",
+      "rva": "0x2ed1000",
+      "size": 20020692
+    },
+    {
+      "name": ".extra",
+      "rva": "0x41e9000",
+      "size": 200040
+    },
+    {
+      "name": ".reimp",
+      "rva": "0x421a000",
+      "size": 25904
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+sjb存量=rmc(sjb存量)
+sjb存量=subx(sjb存量,0,4)

@@ -1,0 +1,31 @@
+{
+  "actions": 2281,
+  "types": {
+    "varOperator": 808,
+    "keyBlock": 17,
+    "loop": 28,
+    "timer": 8,
+    "delay": 242,
+    "varCondition": 585,
+    "key": 159,
+    "mouse": 103,
+    "end": 4,
+    "popText": 45,
+    "color": 39,
+    "msgView": 45,
+    "blockExec": 56,
+    "jump": 36,
+    "ocr": 37,
+    "loopEnd": 37,
+    "jumpPoint": 14,
+    "block": 16,
+    "copyText": 1,
+    "open": 1
+  },
+  "decrypted_fields": 4106,
+  "script_occurrences": 1393,
+  "unique_script_or_condition_files": 1012,
+  "unknown_action_keys": [],
+  "all_inner_roundtrips_equal": true,
+  "prefix_removal": "Only action type has an eight-character random prefix; other text is unchanged."
+}

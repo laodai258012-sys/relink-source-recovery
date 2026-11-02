@@ -1,0 +1,6 @@
+启用=value('启用_'^_index)
+copy_first=_index
+copy1=copy_first+1
+枪名=value('枪名设置栏_'^_index)
+枪名_subx1=subx(枪名,1,1)
+枪名_subx3=subx(枪名,2,2)

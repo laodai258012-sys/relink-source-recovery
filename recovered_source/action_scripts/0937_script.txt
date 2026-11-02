@@ -1,0 +1,3 @@
+#本轮总收藏量=本轮总收藏量+value('设置栏收藏量_'^copy_first)
+#总收藏量=总收藏量+value('设置栏收藏量_'^copy_first)
+value(设置栏收藏量N,0)

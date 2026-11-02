@@ -1,0 +1,3 @@
+time_find=time_rms()
+time_dep=time_find-time_starto
+sleep(400-time_dep)

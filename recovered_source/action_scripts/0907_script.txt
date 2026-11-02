@@ -1,0 +1,2 @@
+copy_first显=copy_first^value('赛季累加')
+counter_add(copy_first显,conunter显示)

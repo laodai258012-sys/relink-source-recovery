@@ -1,0 +1,1 @@
+time_setend=time_endo-time_starto

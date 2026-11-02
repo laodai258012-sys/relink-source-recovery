@@ -1,0 +1,302 @@
+[
+  {
+    "origin": "exception_table",
+    "rva": "af0b0",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol uRamffffffffffffffff extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "3e0cfb",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "4a1b1c",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "5bf795",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "5e50e0",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "603f30",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "603110",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "606280",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "606e00",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "606690",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "6364c8",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "67822a",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "7c2139",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol $$undef00000008 extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "7c20ee",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol $$undef0000000a extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "8021f0",
+    "status": "failed",
+    "detail": "Exception while decompiling 1408021f0: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "8559b1",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol $$undef00000007 extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "8559bb",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol $$undef00000007 extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "8876bb",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "945130",
+    "status": "failed",
+    "detail": "Exception while decompiling 140945130: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "949d50",
+    "status": "failed",
+    "detail": "Exception while decompiling 140949d50: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "95a07e",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "98b26f",
+    "status": "failed",
+    "detail": " Low-level Error: Symbol iRamffffffffffffffff extends beyond the end of the address space"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "bc74f0",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "d8d067",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "d8cf4f",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "d8cf3a",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "e70a20",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "fe7410",
+    "status": "failed",
+    "detail": "Exception while decompiling 140fe7410: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11029ca",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1102868",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1102850",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "110430d",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11042f0",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "113cd32",
+    "status": "failed",
+    "detail": " Low-level Error: Cannot properly adjust input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11ef7a1",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11f28d5",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11f2ac1",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "11f38d0",
+    "status": "failed",
+    "detail": "Exception while decompiling 1411f38d0: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "141321d",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1ac6930",
+    "status": "failed",
+    "detail": "Exception while decompiling 141ac6930: process: timeout "
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1c78410",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1c7842f",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1c785b0",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1c785c4",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1cdb730",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "exception_table",
+    "rva": "1cdb9e0",
+    "status": "failed",
+    "detail": " Recoverable Error: Unable to find unique hash for varnode"
+  },
+  {
+    "origin": "leaf_candidate",
+    "rva": "51f50",
+    "status": "failed",
+    "detail": " Low-level Error: Overlapping input varnodes"
+  },
+  {
+    "origin": "leaf_candidate",
+    "rva": "11f2de0",
+    "status": "failed",
+    "detail": "Exception while decompiling 1411f2de0: process: timeout "
+  },
+  {
+    "origin": "leaf_candidate",
+    "rva": "11f3160",
+    "status": "failed",
+    "detail": "Exception while decompiling 1411f3160: process: timeout "
+  },
+  {
+    "origin": "leaf_candidate",
+    "rva": "19d6cf0",
+    "status": "failed",
+    "detail": "Exception while decompiling 1419d6cf0: process: timeout "
+  }
+]

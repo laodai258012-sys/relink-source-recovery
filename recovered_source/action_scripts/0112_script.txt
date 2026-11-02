@@ -1,0 +1,2 @@
+time_millisecond=time_ms()
+time_second=time_s()*1000

@@ -1,0 +1,3 @@
+枪名=value('枪名设置栏_'^_index)
+枪名_subx1=subx(枪名,1,1)
+枪名_subx3=subx(枪名,2,2)

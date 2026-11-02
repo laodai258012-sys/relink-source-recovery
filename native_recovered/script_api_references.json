@@ -1,0 +1,1104 @@
+{
+  "capture_screen": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1c80",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x1401906fd",
+        "function_rva": "0x1906f0",
+        "decompiled_file": "decompiled/1906f0.c"
+      }
+    ]
+  },
+  "capture_screen_post": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1668",
+        "encoding": "ascii"
+      }
+    ],
+    "references": []
+  },
+  "counter_add": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1c90",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14019079d",
+        "function_rva": "0x190790",
+        "decompiled_file": "decompiled/190790.c"
+      }
+    ]
+  },
+  "counter_clear": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1c70",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x1401908dd",
+        "function_rva": "0x1908d0",
+        "decompiled_file": "decompiled/1908d0.c"
+      }
+    ]
+  },
+  "counter_hide": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1c50",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x140190a1d",
+        "function_rva": "0x190a10",
+        "decompiled_file": "decompiled/190a10.c"
+      }
+    ]
+  },
+  "counter_show": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1c40",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14019097d",
+        "function_rva": "0x190970",
+        "decompiled_file": "decompiled/190970.c"
+      }
+    ]
+  },
+  "datetime": {
+    "literal_addresses": [
+      {
+        "address": "0x14209f3be",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14209f939",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f1680",
+        "encoding": "ascii"
+      }
+    ],
+    "references": []
+  },
+  "dir_create": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1a30",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018ef7d",
+        "function_rva": "0x18ef70",
+        "decompiled_file": "decompiled/18ef70.c"
+      }
+    ]
+  },
+  "find": {
+    "literal_addresses": [
+      {
+        "address": "0x141ececc5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142168c2f",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426e92ab",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f1818",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f188c",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f1bb5",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d31d",
+        "function_rva": "0x18d310",
+        "decompiled_file": "decompiled/18d310.c"
+      }
+    ]
+  },
+  "insert": {
+    "literal_addresses": [
+      {
+        "address": "0x1426ca8bb",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f1808",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d45d",
+        "function_rva": "0x18d450",
+        "decompiled_file": "decompiled/18d450.c"
+      }
+    ]
+  },
+  "macro_stop": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1ba0",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018fddd",
+        "function_rva": "0x18fdd0",
+        "decompiled_file": "decompiled/18fdd0.c"
+      }
+    ]
+  },
+  "pop": {
+    "literal_addresses": [
+      {
+        "address": "0x14205a1ca",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14209f806",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14215bd5b",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421d0741",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426df2ba",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f18d4",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018e17d",
+        "function_rva": "0x18e170",
+        "decompiled_file": "decompiled/18e170.c"
+      }
+    ]
+  },
+  "replace": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1800",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d3bd",
+        "function_rva": "0x18d3b0",
+        "decompiled_file": "decompiled/18d3b0.c"
+      },
+      {
+        "instruction": "0x140f78793",
+        "function_rva": "0xf78730",
+        "decompiled_file": "decompiled/f78730.c"
+      }
+    ]
+  },
+  "rmc": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f17c0",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d09d",
+        "function_rva": "0x18d090",
+        "decompiled_file": "decompiled/18d090.c"
+      }
+    ]
+  },
+  "rms": {
+    "literal_addresses": [
+      {
+        "address": "0x141ee8eb8",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x141eed21a",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x141f1dae0",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14218ffa8",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14219adbf",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1422689fe",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427c9cdb",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14284fb97",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f174d",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f17b4",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d13d",
+        "function_rva": "0x18d130",
+        "decompiled_file": "decompiled/18d130.c"
+      }
+    ]
+  },
+  "sleep": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f17f0",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d4fd",
+        "function_rva": "0x18d4f0",
+        "decompiled_file": "decompiled/18d4f0.c"
+      }
+    ]
+  },
+  "sub": {
+    "literal_addresses": [
+      {
+        "address": "0x14205a1fc",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14218be70",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14219b9b5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14219bc54",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14219c198",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426fce14",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14282c842",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f17b8",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d1dd",
+        "function_rva": "0x18d1d0",
+        "decompiled_file": "decompiled/18d1d0.c"
+      },
+      {
+        "instruction": "0x1409e21dc",
+        "function_rva": "0x9e1664",
+        "decompiled_file": "decompiled/9e1664.c"
+      },
+      {
+        "instruction": "0x140a81a2d",
+        "function_rva": "0xa80239",
+        "decompiled_file": "decompiled/a80239.c"
+      },
+      {
+        "instruction": "0x140d3d542",
+        "function_rva": "0xd3c374",
+        "decompiled_file": "decompiled/d3c374.c"
+      }
+    ]
+  },
+  "subx": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1810",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018d27d",
+        "function_rva": "0x18d270",
+        "decompiled_file": "decompiled/18d270.c"
+      }
+    ]
+  },
+  "sync": {
+    "literal_addresses": [
+      {
+        "address": "0x1426c5540",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427658a7",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427662f5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142768c1f",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14277810b",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1428ea25c",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x1400999e5",
+        "function_rva": "0x99840",
+        "decompiled_file": "decompiled/99840.c"
+      },
+      {
+        "instruction": "0x1400ab945",
+        "function_rva": "0xab7a0",
+        "decompiled_file": "decompiled/ab7a0.c"
+      },
+      {
+        "instruction": "0x140190abd",
+        "function_rva": "0x190ab0",
+        "decompiled_file": "decompiled/190ab0.c"
+      }
+    ]
+  },
+  "time_ms": {
+    "literal_addresses": [
+      {
+        "address": "0x1429ef797",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f1648",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x1401895d3",
+        "function_rva": "0x188e40",
+        "decompiled_file": "decompiled/188e40.c"
+      }
+    ]
+  },
+  "time_ntp_ms": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f16a0",
+        "encoding": "ascii"
+      }
+    ],
+    "references": []
+  },
+  "time_rms": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1748",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x140189c3a",
+        "function_rva": "0x188e40",
+        "decompiled_file": "decompiled/188e40.c"
+      }
+    ]
+  },
+  "time_s": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f163c",
+        "encoding": "ascii"
+      }
+    ],
+    "references": []
+  },
+  "time_set_ms": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1700",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018c23d",
+        "function_rva": "0x18c230",
+        "decompiled_file": "decompiled/18c230.c"
+      }
+    ]
+  },
+  "time_set_msa": {
+    "literal_addresses": [
+      {
+        "address": "0x1429f1710",
+        "encoding": "ascii"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018c2dd",
+        "function_rva": "0x18c2d0",
+        "decompiled_file": "decompiled/18c2d0.c"
+      }
+    ]
+  },
+  "value": {
+    "literal_addresses": [
+      {
+        "address": "0x141ec31b8",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14206bdc3",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1420a81c0",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142116b99",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14211ca02",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14211d710",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14211d971",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142131439",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14214bebb",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14214c2e1",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14214f63f",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142151961",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142155117",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421893a5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421893bd",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421d7af6",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421d81f4",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1421d8c26",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14226f6d2",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142276fa5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142279c80",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14227ae98",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426770ec",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426c4c97",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426c4e5d",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426c4eac",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426c6823",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426c8db7",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426edb81",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1426f7d9e",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142706564",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271d151",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271dcc1",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271dcfd",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271dd8d",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271dee5",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271df30",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271dfc0",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271f073",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14271fdee",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142720768",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142720780",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142720a16",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142723365",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427239a3",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142723aa8",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142724bed",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142724edd",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142725ce0",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142727b32",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142766e42",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14276c335",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14278d52b",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14278e4f6",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14279a62f",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a2781",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a2b39",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a2bc9",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a5241",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a5636",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427a7e8c",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427aa6b1",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427ac291",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427afa0d",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427c5623",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427c69dc",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427ce96a",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427e1789",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1427e53af",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142808c95",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142808f80",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142809e8e",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14280efb7",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14280fe34",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142814ee0",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142823262",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x14282e2ef",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x1429f16f8",
+        "encoding": "ascii"
+      },
+      {
+        "address": "0x142224578",
+        "encoding": "utf-16le"
+      },
+      {
+        "address": "0x142677272",
+        "encoding": "utf-16le"
+      }
+    ],
+    "references": [
+      {
+        "instruction": "0x14018c41d",
+        "function_rva": "0x18c410",
+        "decompiled_file": "decompiled/18c410.c"
+      },
+      {
+        "instruction": "0x1409b09d1",
+        "function_rva": "0x9b09a0",
+        "decompiled_file": "decompiled/9b09a0.c"
+      },
+      {
+        "instruction": "0x1409ebcbd",
+        "function_rva": "0x9ebc90",
+        "decompiled_file": "decompiled/9ebc90.c"
+      },
+      {
+        "instruction": "0x1409ec80d",
+        "function_rva": "0x9ec7e0",
+        "decompiled_file": "decompiled/9ec7e0.c"
+      },
+      {
+        "instruction": "0x140b0633f",
+        "function_rva": "0xb06323",
+        "decompiled_file": "decompiled/b06323.c"
+      },
+      {
+        "instruction": "0x140f8abbf",
+        "function_rva": "0xf8ab90",
+        "decompiled_file": "decompiled/f8ab90.c"
+      },
+      {
+        "instruction": "0x14117f680",
+        "function_rva": "0x117f5e0",
+        "decompiled_file": "decompiled/117f5e0.c"
+      },
+      {
+        "instruction": "0x1415b3ad1",
+        "function_rva": "0x15b2f40",
+        "decompiled_file": "decompiled/15b2f40.c"
+      },
+      {
+        "instruction": "0x1415b3cac",
+        "function_rva": "0x15b2f40",
+        "decompiled_file": "decompiled/15b2f40.c"
+      },
+      {
+        "instruction": "0x1415b3daf",
+        "function_rva": "0x15b2f40",
+        "decompiled_file": "decompiled/15b2f40.c"
+      },
+      {
+        "instruction": "0x1415b4b02",
+        "function_rva": "0x15b3f40",
+        "decompiled_file": "decompiled/15b3f40.c"
+      },
+      {
+        "instruction": "0x1415b4cd1",
+        "function_rva": "0x15b3f40",
+        "decompiled_file": "decompiled/15b3f40.c"
+      },
+      {
+        "instruction": "0x1415b4dd0",
+        "function_rva": "0x15b3f40",
+        "decompiled_file": "decompiled/15b3f40.c"
+      },
+      {
+        "instruction": "0x1415bba5e",
+        "function_rva": "0x15bb980",
+        "decompiled_file": "decompiled/15bb980.c"
+      },
+      {
+        "instruction": "0x1415bbce5",
+        "function_rva": "0x15bb980",
+        "decompiled_file": "decompiled/15bb980.c"
+      },
+      {
+        "instruction": "0x1417b9675",
+        "function_rva": "0x17b9610",
+        "decompiled_file": "decompiled/17b9610.c"
+      },
+      {
+        "instruction": "0x141824e97",
+        "function_rva": "0x1824e30",
+        "decompiled_file": "decompiled/1824e30.c"
+      },
+      {
+        "instruction": "0x1419d9301",
+        "function_rva": "0x19d8770",
+        "decompiled_file": "decompiled/19d8770.c"
+      },
+      {
+        "instruction": "0x1419d94dc",
+        "function_rva": "0x19d8770",
+        "decompiled_file": "decompiled/19d8770.c"
+      },
+      {
+        "instruction": "0x1419d95df",
+        "function_rva": "0x19d8770",
+        "decompiled_file": "decompiled/19d8770.c"
+      },
+      {
+        "instruction": "0x1419da344",
+        "function_rva": "0x19d9770",
+        "decompiled_file": "decompiled/19d9770.c"
+      },
+      {
+        "instruction": "0x1419da513",
+        "function_rva": "0x19d9770",
+        "decompiled_file": "decompiled/19d9770.c"
+      },
+      {
+        "instruction": "0x1419da612",
+        "function_rva": "0x19d9770",
+        "decompiled_file": "decompiled/19d9770.c"
+      },
+      {
+        "instruction": "0x1419eebfe",
+        "function_rva": "0x19eeb20",
+        "decompiled_file": "decompiled/19eeb20.c"
+      },
+      {
+        "instruction": "0x1419eee8f",
+        "function_rva": "0x19eeb20",
+        "decompiled_file": "decompiled/19eeb20.c"
+      },
+      {
+        "instruction": "0x141a7d228",
+        "function_rva": "0x1a7cc90",
+        "decompiled_file": "decompiled/1a7cc90.c"
+      },
+      {
+        "instruction": "0x141a7d343",
+        "function_rva": "0x1a7cc90",
+        "decompiled_file": "decompiled/1a7cc90.c"
+      },
+      {
+        "instruction": "0x141ac9990",
+        "function_rva": "0x1ac6930",
+        "decompiled_file": "decompiled/1ac6930.c"
+      },
+      {
+        "instruction": "0x141aca7e6",
+        "function_rva": "0x1ac6930",
+        "decompiled_file": "decompiled/1ac6930.c"
+      },
+      {
+        "instruction": "0x141acb430",
+        "function_rva": "0x1ac6930",
+        "decompiled_file": "decompiled/1ac6930.c"
+      },
+      {
+        "instruction": "0x141af466f",
+        "function_rva": "0x1af4530",
+        "decompiled_file": "decompiled/1af4530.c"
+      },
+      {
+        "instruction": "0x141af494f",
+        "function_rva": "0x1af4810",
+        "decompiled_file": "decompiled/1af4810.c"
+      },
+      {
+        "instruction": "0x141b0e16b",
+        "function_rva": "0x1b0e0a0",
+        "decompiled_file": "decompiled/1b0e0a0.c"
+      },
+      {
+        "instruction": "0x141b0e488",
+        "function_rva": "0x1b0e3c0",
+        "decompiled_file": "decompiled/1b0e3c0.c"
+      },
+      {
+        "instruction": "0x141b0e76c",
+        "function_rva": "0x1b0e6a0",
+        "decompiled_file": "decompiled/1b0e6a0.c"
+      },
+      {
+        "instruction": "0x141b0ea0c",
+        "function_rva": "0x1b0e940",
+        "decompiled_file": "decompiled/1b0e940.c"
+      },
+      {
+        "instruction": "0x141b0ed7c",
+        "function_rva": "0x1b0ecb0",
+        "decompiled_file": "decompiled/1b0ecb0.c"
+      },
+      {
+        "instruction": "0x141b0f0ec",
+        "function_rva": "0x1b0f020",
+        "decompiled_file": "decompiled/1b0f020.c"
+      },
+      {
+        "instruction": "0x141b0f45b",
+        "function_rva": "0x1b0f390",
+        "decompiled_file": "decompiled/1b0f390.c"
+      },
+      {
+        "instruction": "0x141b0f66c",
+        "function_rva": "0x1b0f5a0",
+        "decompiled_file": "decompiled/1b0f5a0.c"
+      },
+      {
+        "instruction": "0x141b52cbb",
+        "function_rva": "0x1b52bf0",
+        "decompiled_file": "decompiled/1b52bf0.c"
+      },
+      {
+        "instruction": "0x141b52ffc",
+        "function_rva": "0x1b52f30",
+        "decompiled_file": "decompiled/1b52f30.c"
+      },
+      {
+        "instruction": "0x141b7dbce",
+        "function_rva": "0x1b7da00",
+        "decompiled_file": "decompiled/1b7da00.c"
+      },
+      {
+        "instruction": "0x141b7f72b",
+        "function_rva": "0x1b7f4e0",
+        "decompiled_file": "decompiled/1b7f4e0.c"
+      },
+      {
+        "instruction": "0x141b7fff7",
+        "function_rva": "0x1b7fe40",
+        "decompiled_file": "decompiled/1b7fe40.c"
+      },
+      {
+        "instruction": "0x141b80a8c",
+        "function_rva": "0x1b80900",
+        "decompiled_file": "decompiled/1b80900.c"
+      },
+      {
+        "instruction": "0x141b8220f",
+        "function_rva": "0x1b82020",
+        "decompiled_file": "decompiled/1b82020.c"
+      },
+      {
+        "instruction": "0x141b8b659",
+        "function_rva": "0x1b8b4e0",
+        "decompiled_file": "decompiled/1b8b4e0.c"
+      },
+      {
+        "instruction": "0x141b901fd",
+        "function_rva": "0x1b8fde0",
+        "decompiled_file": "decompiled/1b8fde0.c"
+      },
+      {
+        "instruction": "0x141b90273",
+        "function_rva": "0x1b8fde0",
+        "decompiled_file": "decompiled/1b8fde0.c"
+      },
+      {
+        "instruction": "0x141b90316",
+        "function_rva": "0x1b8fde0",
+        "decompiled_file": "decompiled/1b8fde0.c"
+      }
+    ]
+  }
+}

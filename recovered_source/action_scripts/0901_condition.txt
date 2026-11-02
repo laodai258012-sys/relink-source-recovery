@@ -1,0 +1,1 @@
+value('枪名设置栏_'^_index)==namedata

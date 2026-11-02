@@ -1,0 +1,2 @@
+clock_time_2004=time_rms()
+clock_time=clock_time_2004-clock_time_0601

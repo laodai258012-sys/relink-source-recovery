@@ -1,0 +1,1 @@
+Qprice<=value('最高价格设置栏_'^_index)
